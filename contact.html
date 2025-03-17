@@ -3,72 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Nabin Chaudhary</title>
+    <title>Contact - Sumant Kumar Yadav</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-content">
-            <div class="logo">NC</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-                <li><a href="videoDemo.html">Video Demo</a></li>
-                <li><a href="sitereport.html">Site Report</a></li>
-            </ul>
-        </div>
+    <nav class="navbar">
+        <div class="nav-brand">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="videoDemo.html">Demo</a></li>
+            <li><a href="sitereport.html">Report</a></li>
+        </ul>
     </nav>
 
-    <section class="contact-page">
-        <h1>Contact Me</h1>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h2>Get in Touch</h2>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>cnabin847@gmail.com</p>
+    <main class="contact-container">
+        <h1>Get in Touch</h1>
+        <div class="contact-wrapper">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <strong>University</strong>
+                            <span>University of Northampton</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Program</strong>
+                            <span>BSc Computer Science</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Email</strong>
+                            <a href="mailto:sumantkumary14@gmail.com">sumantkumary14@gmail.com</a>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-graduation-cap"></i>
-                        <p>University of Northampton Student</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Northampton, United Kingdom</p>
+                    <div class="social-links">
+                        <a href="https://github.com/sumant12647" target="_blank" class="social-btn">
+                            GitHub
+                        </a>
                     </div>
                 </div>
-            </div>
-            
-            <div class="contact-form">
-                <h2>Send Me a Message</h2>
-                <form action="mailto:cnabin847@gmail.com" method="post" enctype="text/plain">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+
+                <div class="contact-form-wrapper">
+                    <form action="mailto:sumantkumary14@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Enter subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Nabin Chaudhary. All rights reserved.</p>
+        <p>&copy; 2024 Sumant Kumar Yadav. All rights reserved.</p>
     </footer>
 </body>
 </html> 
