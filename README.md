@@ -1,10 +1,12 @@
 #Portfolio_Website
 
 
-Project Overview
+#Project Overview
+
 This project is a personal portfolio website developed as part of the CSY1063 Web Development Assignment at the University of Northampton. The website demonstrates my ability to design and develop responsive web pages using HTML and CSS, while also managing version control with GitHub.
 
-Project Features
+#Project Features
+
 Home Page (index.html) - Introduction, brief bio, and purpose of the website.
 Projects Page (project.html) - Showcases placeholder projects with a grid layout.
 Contact Page (contact.html) - Displays a contact form that opens the user's email program.
